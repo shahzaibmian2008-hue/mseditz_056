@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MS EDITZ</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #1a1a1a;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.postimg.cc/R0nw61sh/Babar-Azam-Hd-Wallpapers-Babar-Azam-Hd-Pictures-Babar-Azam-Birthday-Babar-Azam-Wallpapers-Hd.jpg');
+      background-size: cover;
+      background-position: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .container {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 35px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+      text-align: center;
+      width: 90%;
+      max-width: 480px;
+      backdrop-filter: blur(12px);
+      animation: slideUp 0.8s ease-out;
+    }
+
+    img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #007bff;
+      margin-bottom: 25px;
+      box-shadow: 0 3px 10px rgba(0, 123, 255, 0.5);
+      animation: pulseZoom 3s ease-in-out infinite; /* Zoom In/Out Animation */
+    }
+
+    h1 {
+      color: #fff;
+      margin-bottom: 20px;
+      font-size: 2.5em;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+      font-weight: bold;
+      animation: slideRight 0.8s ease-out;
+    }
+
+    /*  Links positioned above and below the heading */
+    .link-container {
+      display: flex;
+      flex-direction: column; /* Stack items vertically */
+      align-items: center;   /* Center items horizontally */
+      margin-bottom: 20px;  /* Add spacing */
+    }
+
+    .link-container a {
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        margin-bottom: 18px;
+        padding: 16px;
+        border-radius: 10px;
+        background-color: rgba(0, 123, 255, 0.8);
+        transition: background-color 0.3s ease;
+        width: 100%;           /* Take full width */
+        text-align: center;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+        animation: bounceIn 0.6s ease-out;  /* Bounce In */
+    }
+
+    .link-container a:hover {
+      background-color: #0056b3;
+    }
+
+    .telegram-icon {
+      width: 30px;
+      height: 30px;
+      margin-right: 15px;
+    }
+
+    /* Media Queries for Responsiveness */
+    @media (max-width: 600px) {
+      .container {
+        width: 95%;
+      }
+      img {
+        width: 200px;
+        height: 200px;
+      }
+      h1 {
+        font-size: 2.2em;
+      }
+      .link-container a {
+          font-size: 1.3em;
+          padding: 18px;
+      }
+      .telegram-icon {
+          width: 35px;
+          height: 35px;
+      }
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes scaleIn {
+      from {
+        transform: scale(0.8);
+        opacity: 0;
+      }
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideRight {
+      from {
+        opacity: 0;
+        transform: translateX(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes bounceIn {
+      from {
+        opacity: 0;
+        transform: scale(0.7);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    /* Zoom Animation for Image (Pulse Zoom) */
+    @keyframes pulseZoom {
+      0% {
+        transform: scale(1);
+        box-shadow: 0 3px 10px rgba(0, 123, 255, 0.5);
+      }
+      50% {
+        transform: scale(1.1);
+        box-shadow: 0 8px 20px rgba(0, 123, 255, 0.7);
+      }
+      100% {
+        transform: scale(1);
+        box-shadow: 0 3px 10px rgba(0, 123, 255, 0.5);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="https://i.postimg.cc/HkZRMwwv/IMG-20250905065130544.jpg" alt="Your Picture">
+    <h1>MS EDITZ</h1>
+
+    <div class="link-container">
+      <a href="https://t.me/mseditz_56" target="_blank">
+        Telegram Channel
+      </a>
+      <a href="https://wa.me/+923089155279">WhatsApp</a>
+    </div>
+
+  </div>
+
+</body>
+</html>
